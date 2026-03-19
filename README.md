@@ -21,12 +21,23 @@ O repositório está organizado por módulos seguindo a cronologia do curso:
 
 1. **`1_INTRO/`**: Criação do primeiro projeto React (utilizando Vite), configuração do ambiente e entendimento da árvore de arquivos padrão.
 2. **`2_FUNDAMENTOS/`**: Entendendo a Componentização, JSX, Template Expressions, hierarquia de componentes e manipulação de Eventos.
+3. **`3_AVANCANDO/`**: Aprofundamento em React com Hooks (`useState`), renderização de listas, props, Fragments, children e elevação de estado (State Lift).
+4. **`4_CSS_REACT/`**: Estilização em React usando CSS global, inline dinâmico e a abordagem profissional de CSS Modules (Scoped CSS).
+5. **`5_FORM_REACT/`**: Manipulação de formulários, inputs controlados (Controlled Components), textareas, selects e submissão de dados.
+6. **`6_PROJETO_IMC/`**: Recriação da Calculadora de IMC, agora totalmente componentizada e com gestão de estado no React.
+7. **`7_HTTP_REACT/`**: Requisições para APIs com o hook `useEffect`, criação de Custom Hooks (`useFetch`) para reaproveitamento e estados de carregamento (Loading).
+8. **`8_PROJETO_MULTISTEP/`**: Construção de um formulário avançado com múltiplas etapas (Multi-step form) focado em componentização e hooks customizados.
+9. **`9_ROUTER/`**: Implementação de navegação Single Page Application (SPA) utilizando o React Router, com rotas dinâmicas, links e páginas de erro (404).
 
 ---
 
 ## 💻 Projetos em Destaque
 
-*Os projetos práticos desta etapa ainda serão desenvolvidos e listados aqui em breve!* 🚀
+### ⚖️ Calculadora de IMC (React)
+A clássica calculadora de saúde recriada do zero utilizando o ecossistema React. Demonstra perfeitamente a diferença entre manipular o DOM diretamente no JavaScript puro e utilizar o `useState` para controlar renderizações condicionais e a atualização da interface de forma puramente reativa.
+
+### 📝 Formulário Multi-step
+Um formulário de avaliação dividido em várias etapas interativas. Este projeto foca numa arquitetura inteligente de componentes, passagem de `props` complexas e na criação de um **Custom Hook** para gerir o estado de qual passo o utilizador se encontra, permitindo avançar e retroceder sem perder os dados.
 
 ---
 
