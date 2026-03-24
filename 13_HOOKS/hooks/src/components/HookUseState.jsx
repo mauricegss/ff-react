@@ -4,12 +4,12 @@ const HookUseState = () => {
   // 1 - useState
   let userName = "João";
 
-  const [name, setName] = useState("Matheus");
+  const [name, setName] = useState("Maurice");
 
   const changeNames = () => {
     userName = "João Souza";
 
-    setName("Matheus Battisti");
+    setName("Maurice Santos");
 
     console.log(userName);
   };
